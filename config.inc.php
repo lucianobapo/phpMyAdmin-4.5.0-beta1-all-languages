@@ -20,6 +20,18 @@ $cfg['Servers'][$i]['user'] = '';
 $cfg['Servers'][$i]['password'] = '';
 $cfg['Servers'][$i]['AllowRoot'] = false;
 
+/* Server: ilhanet.com [2] */
+$i++;
+$cfg['Servers'][$i]['verbose'] = '';
+$cfg['Servers'][$i]['host'] = 'ilhanet.com';
+$cfg['Servers'][$i]['port'] = '';
+$cfg['Servers'][$i]['socket'] = '';
+$cfg['Servers'][$i]['connect_type'] = 'tcp';
+$cfg['Servers'][$i]['auth_type'] = 'http';
+$cfg['Servers'][$i]['user'] = '';
+$cfg['Servers'][$i]['password'] = '';
+$cfg['Servers'][$i]['AllowRoot'] = false;
+
 /* End of servers configuration */
 
 $cfg['blowfish_secret'] = '55e0eee96cf692.38839318';
